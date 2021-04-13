@@ -3,7 +3,37 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "uni-app",
+				"usingComponents": {
+					"van-button": "/wxcomponents/vant-weapp/button/index"
+				}
+			}
+		},
+		{
+			"path": "pages/category/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"usingComponents": {
+					"van-button": "/wxcomponents/vant-weapp/button/index",
+					"van-sidebar": "/wxcomponents/vant-weapp/sidebar/index",
+					"van-sidebar-item": "/wxcomponents/vant-weapp/sidebar-item/index",
+					"van-card": "/wxcomponents/vant-weapp/card/index",
+					"van-row": "/wxcomponents/vant-weapp/row/index",
+					"van-col": "/wxcomponents/vant-weapp/col/index",
+					"van-icon": "/wxcomponents/vant-weapp/icon/index"
+				}
+			}
+		},
+		{
+			"path": "pages/detail/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"usingComponents": {
+					"van-button": "/wxcomponents/vant-weapp/button/index",
+					"van-row": "/wxcomponents/vant-weapp/row/index",
+					"van-col": "/wxcomponents/vant-weapp/col/index",
+					"van-icon": "/wxcomponents/vant-weapp/icon/index"
+				}
 			}
 		}
 	],
@@ -16,18 +46,18 @@
 	"tabBar": {
 		"color": "#787878",
 		"selectedColor": "#ff4444",
-		"borderStyle": "#fcfcfc",
+		"borderStyle": "white",
 		"backgroundColor": "#fcfcfc",
 		"height":"60px",
 		"fontSize":"13px",
 		"list": [{
-			"pagePath": "pages/index/index",
+			"pagePath": "pages/detail/index",
 			"iconPath": "static/image/icon/homePage.png",
 			"selectedIconPath": "static/image/icon/homePageSelect.png",
 			"text": "首頁"
 		},
 		{
-			"pagePath": "pages/index/index",
+			"pagePath": "pages/category/index",
 			"iconPath": "static/image/icon/category.png",
 			"selectedIconPath": "static/image/icon/categorySelect.png",
 			"text": "分類"

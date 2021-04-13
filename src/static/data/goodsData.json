@@ -1,0 +1,124 @@
+{
+  "category": [
+    { "name": "最新商品" },
+    { "name": "護膚保養" },
+    { "name": "個人護理" },
+    { "name": "服飾內衣" },
+    { "name": "鎮店之寶" }
+  ],
+  "data": [
+    {
+      "name":"最新商品",
+      "data": [
+        {
+          "id": "0001",
+          "title": "南京同仁堂 艾草草本腳粉",
+          "desc": "",
+          "isSpecialPrice": true,
+          "price": 39.99,
+          "specialPrice": 19.9,
+          "Shipping": "0.00-8.00",
+          "standard": ["1包*30小包"],
+          "last": [1901]
+        }
+      ]
+    },
+    {
+      "name":"護膚保養",
+      "data":[
+          {
+              "id": "0002",
+              "title": "大創ER胎盤素水乳",
+              "desc": "",
+              "isSpecialPrice": true,
+              "price": 39.99,
+              "specialPrice": 19.9,
+              "Shipping": "0.00-8.00",
+              "standard": ["15ml"],
+              "last": [2000]
+          },
+          {
+              "id": "0003",
+              "title": "英國雅伯頓益生元酵素面膜 30片裝",
+              "desc": "",
+              "isSpecialPrice": true,
+              "price": 39.99,
+              "specialPrice": 19.9,
+              "Shipping": "0.00-8.00",
+              "standard": ["1盒","3盒"],
+              "last": [2000]
+          }
+      ]
+    },
+    {
+      "name":"個人護理",
+      "data":[
+          {
+              "id": "0001",
+              "title": "南京同仁堂 艾草草本腳粉",
+              "desc": "",
+              "isSpecialPrice": true,
+              "price": 39.99,
+              "specialPrice": 19.9,
+              "Shipping": "0.00-8.00",
+              "standard": ["1包*30小包"],
+              "last": [1901]
+          }
+      ]
+  },
+    {
+      "name":"服飾內衣",
+      "data":[
+          {
+              "id": "0004",
+              "title": "白色黑色吊帶背心女內文胸搭秋冬外寡2021年新款蕾絲修身顯瘦短款內衣",
+              "desc": "",
+              "isSpecialPrice": true,
+              "price": 39.99,
+              "specialPrice": 19.9,
+              "Shipping": "0.00-8.00",
+              "standard": ["1包*30小包"],
+              "last": [1901]
+          }
+      ]
+    },
+    {
+      "name":"鎮店之寶",
+      "data":[
+          {
+              "id": "0001",
+              "title": "南京同仁堂 艾草草本腳粉",
+              "desc": "",
+              "isSpecialPrice": true,
+              "price": 39.99,
+              "specialPrice": 19.9,
+              "Shipping": "0.00-8.00",
+              "standard": ["1包*30小包"],
+              "last": [1901]
+          },
+          {
+            "id": "0002",
+            "title": "大創ER胎盤素水乳",
+            "desc": "",
+            "isSpecialPrice": true,
+            "price": 39.99,
+            "specialPrice": 19.9,
+            "Shipping": "0.00-8.00",
+            "standard": ["15ml"],
+            "last": [2000]
+        },
+        {
+            "id": "0003",
+            "title": "英國雅伯頓益生元酵素面膜 30片裝",
+            "desc": "",
+            "isSpecialPrice": true,
+            "price": 39.99,
+            "specialPrice": 19.9,
+            "Shipping": "0.00-8.00",
+            "standard": ["1盒","3盒"],
+            "last": [2000]
+        }
+      ]
+    }
+  ]
+}

@@ -3,6 +3,7 @@
 		<image class="logo" src="/static/logo.png"></image>
 		<view>
 			<text class="title">{{title}}</text>
+			<van-button type="default">默认按钮</van-button>
 		</view>
 	</view>
 </template>
