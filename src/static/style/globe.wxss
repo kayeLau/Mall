@@ -1,0 +1,13 @@
+page{
+    --button-default-background-color:#ff7d9b;
+    --button-default-border-color:#ff7d9b;
+    --button-default-color:#fff;
+
+    --button-primary-background-color:#FFE6E9;
+    --button-primary-border-color:#FFE6E9;
+    --button-primary-color:#E36083;
+
+    --button-info-background-color:#F7F8FA;
+    --button-info-border-color:#F7F8FA;
+    --button-info-color:#000;
+}

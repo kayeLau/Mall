@@ -1,0 +1,47 @@
+<wxs src="../../vant-weapp/wxs/utils.wxs" module="utils" />
+<wxs src="./index.wxs" module="computed" />
+
+<van-overlay
+  wx:if="{{ overlay }}"
+  show="{{ show }}"
+  z-index="{{ zIndex }}"
+  custom-style="{{ overlayStyle }}"
+  duration="{{ duration }}"
+  bind:click="onClickOverlay"
+/>
+<view
+  wx:if="{{ inited }}"
+  class="custom-class {{ classes }} {{ utils.bem('popup', [position, { round, safe: safeAreaInsetBottom, safeTop: safeAreaInsetTop }]) }}"
+  style="{{ computed.popupStyle({ zIndex, currentDuration, display, customStyle }) }}"
+  bind:transitionend="onTransitionEnd"
+>
+  
+  <van-icon
+    wx:if="{{ closeable }}"
+    name="{{ closeIcon }}"
+    class="close-icon-class van-popup__close-icon van-popup__close-icon--{{ closeIconPosition }}"
+    bind:tap="onClickCloseIcon"
+  />
+  <van-card
+  custom-class='card-root'
+  bottom-class='card-bottom'
+  desc="剩餘{{desc}}件"
+  price="{{price}}"
+  tag="{{tag}}"
+  >
+  </van-card>
+
+  <view class='card-column-title'>
+  <view>規格</view>
+  </view>
+  <view class='card-column' style="height:25%">
+    <slot name="standard"></slot>
+  </view>
+
+  <view class='card-column'>
+  <span>購買數量</span>
+  <van-stepper value="{{ 1 }}" bind:change="onChange" />
+  </view>
+  
+  <slot name="button"></slot>
+  </view>

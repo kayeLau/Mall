@@ -14,4 +14,5 @@
 
 <style>
 	@import "/wxcomponents/vant-weapp/common/index.wxss";
+	@import "/static/style/globe.wxss"
 </style>
